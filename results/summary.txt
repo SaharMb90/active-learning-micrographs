@@ -1,0 +1,10 @@
+Final results at 80 labels, mean +/- std over 5 seeds
+(predict-the-mean RMSE: A 0.281, B 0.313)
+
+representation    strategy             RMSE A        RMSE B  cov90 B
+pixel_pca         random          0.268±0.017   0.304±0.020     0.87
+pixel_pca         uncertainty     0.260±0.024   0.298±0.035     0.71
+texture           random          0.129±0.006   0.326±0.058     0.60
+texture           uncertainty     0.170±0.010   0.248±0.012     0.80
+texture_aligned   random          0.129±0.006   0.286±0.032     0.70
+texture_aligned   uncertainty     0.170±0.010   0.245±0.008     0.83
